@@ -6,6 +6,7 @@ from django.shortcuts import render
 
 def home(request):
     packages = [
+	{'name':'aa_stripe', 'url': 'http://pypi.python.org/pypi/aa_stripe/0.4.1'},
 	{'name':'django-twitter-api', 'url': 'http://pypi.python.org/pypi/django-twitter-api/0.2.10'},
 	{'name':'django-paypal', 'url': 'http://pypi.python.org/pypi/django-paypal/0.4.1'},
 	{'name':'django-twitter', 'url': 'http://pypi.python.org/pypi/django-twitter/0.1.0'},
